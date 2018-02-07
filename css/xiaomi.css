@@ -197,10 +197,16 @@
 	float: left;
 	margin-left: 14px;
 	cursor:pointer;
+	
+}
+.xuangou_zhong1:hover img{
+	box-shadow: 0 5px 25px #8c8c8c;
+	
 }
 .xuangou_zhong1 img{
 	width: 316px;
 	height: 170px;
+	transition:all 0.7s linear;
 }
 
 .star{
@@ -375,6 +381,11 @@
 	margin-left: 14px;
 	margin-bottom: 14px;
 	cursor: pointer;
+	transition:all 0.7s linear;
+}
+.jiadian_long:hover img{
+	transform:translate(0, -2px);
+	box-shadow: 0 0 25px #8c8c8c;
 }
 .jiadian_xiao{
 	width: 234px;
@@ -386,6 +397,11 @@
 	background-color: #fff;
 	position: relative;
 	overflow: hidden;
+	transition:all 0.7s linear;
+}
+.jiadian_xiao:hover{
+	transform:translate(0, -2px);
+	box-shadow: 0 0 25px #8c8c8c;
 }
 .jiadian_xiao1{
 	margin-left: 0;	
@@ -394,7 +410,12 @@
 	float: left;
 	width: 234px;
 	height: 300px;
-	cursor: pointer;
+	cursor: pointer;	
+	transition:all 0.7s linear;
+}
+.jiadian_xiao1:hover img{
+	transform:translate(0, -2px);
+	box-shadow: 0 0 25px #8c8c8c;
 }
 .jiadian_xiao img{
 	width: 150px;
@@ -433,7 +454,12 @@
 	background-color: #fff;
 	margin: 0 0 14px 14px;
 	padding-top: 50px;
+	transition:all 0.7s linear;
 }
+.jiadian_jiao:hover{
+	transform:translate(0, -2px);
+	box-shadow: 0 0px 25px #8c8c8c;
+} 
 .jiadian_jiao img{
 	width: 80px;
 	height: 80px;
@@ -532,6 +558,12 @@
     margin-left: -14px;
     float: left;
     cursor: pointer;
+
+}
+.zhineng_long:hover img{
+	transform:translate(0, -2px);
+	box-shadow: 0 0 25px #8c8c8c;
+	
 }
 .zhineng_long img{
 	width: 234px;
@@ -539,6 +571,7 @@
 	margin-left: 14px;
 	float: left;
 	margin-bottom: 14px;
+	transition:all 0.7s linear;
 }
 .tuijian{
 	width: 1226px;
@@ -570,6 +603,11 @@
 	margin-bottom: 14px;
 	background-color: #fff;
 	float: left;
+	transition:all 0.7s linear;
+}
+.reping_xiao:hover{
+	transform:translate(0, -2px);
+	box-shadow: 0 0 25px #8c8c8c;
 }
 .reping_xiao1{
 	margin-left: 0;
@@ -625,6 +663,12 @@
 	margin: 0 0 14px 14px;
 	background-color: #fff;
 	position: relative;
+	transition:all 0.7s linear;
+}
+.nei_xiao:hover{
+	transform:translate(0, -2px);
+	box-shadow: 0 0 25px #8c8c8c;
+	
 }
 .nei_xiao1{
 	margin-left: 0;	
@@ -809,6 +853,11 @@
 	text-align: center;
 	color: #777777;
 	float: left;
+	transition:all 0.7s linear;
+}
+.shipin_xiao:hover{
+	transform:translate(0, -2px);
+	box-shadow: 0 0 25px #8c8c8c;	
 }
 .shipin_xiao1{
 	margin-left: 0;
@@ -1172,48 +1221,4 @@
 }
 .nei_xiaodian:hover{
 	background-color: #ff6700;
-}
-.jiadian_long:hover img{
-	transform:translate(0, -2px);
-	box-shadow: 0 0 25px #8c8c8c;
-	transition:all 0.7s linear;
-}
-.jiadian_xiao:hover{
-	transform:translate(0, -2px);
-	box-shadow: 0 0 25px #8c8c8c;
-	transition:all 0.7s linear;
-}
-.zhineng_long:hover img{
-	transform:translate(0, -2px);
-	box-shadow: 0 0 25px #8c8c8c;
-	transition:all 0.7s linear;
-}
-.jiadian_xiao1:hover img{
-	transform:translate(0, -2px);
-	box-shadow: 0 0 25px #8c8c8c;
-	transition:all 0.7s linear;
-}
-.reping_xiao:hover{
-	transform:translate(0, -2px);
-	box-shadow: 0 0 25px #8c8c8c;
-	transition:all 0.7s linear;
-}
-.nei_xiao:hover{
-	transform:translate(0, -2px);
-	box-shadow: 0 0 25px #8c8c8c;
-	transition:all 0.7s linear;
-}
-.shipin_xiao:hover{
-	transform:translate(0, -2px);
-	box-shadow: 0 0 25px #8c8c8c;
-	transition:all 0.7s linear;
-}
-.jiadian_jiao:hover{
-	transform:translate(0, -2px);
-	box-shadow: 0 0px 25px #8c8c8c;
-	transition:all 0.7s linear;
-}
-.xuangou_zhong1:hover img{
-	box-shadow: 0 5px 25px #8c8c8c;
-	transition:all 0.7s linear;
 }
